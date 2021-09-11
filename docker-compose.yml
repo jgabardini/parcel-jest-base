@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  csdjs:
+    image: node-docker
+    container_name: csdjs
+    ports:
+      - '1234:1234'
+    volumes:
+      - .:/app
+    tty: true
