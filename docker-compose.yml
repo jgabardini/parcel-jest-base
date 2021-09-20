@@ -1,7 +1,7 @@
 version: "3.0"
 services:
   csdjs:
-    image: node-alpine
+    image: node-16
     container_name: csdjs
     ports:
       - '1234:1234'
